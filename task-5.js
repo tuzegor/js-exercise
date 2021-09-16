@@ -5,7 +5,7 @@ userText.addEventListener('input', check);
 
 function check(evt) {
   let numb = evt.target.value;
-  console.log(numb);
+
   if (numb >= 15 && numb <= 90) {
     userText.classList.add('change-color');
     return (answer.textContent = `${numb} -- Входит`);

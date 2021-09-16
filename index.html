@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>js</title>
+    <title>Задачи JS</title>
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
@@ -15,8 +15,37 @@
     <p>
       Написати програму яка перевіряє чи введене число потрапляє в діапазон від 15 до 90 включно
     </p>
-    <input class="input-task-5" type="number" /> <span class="answer-task-5"></span>
+    <input class="input-task-5" type="number" placeholder="Введите число" /> <span class="answer-task-5"></span>
+
+    <h2>Задача 6</h2>
+    <p>
+      Написати програму де користувач вводить 3 числа, після вводу всіх трьох чисел йому на екрані
+      показується найбільше з них. Додатково перевіряти чи це взагалі числа
+    </p>
+    <input class="input-1-task-6" type="text" placeholder="Введите число" />
+    <input class="input-2-task-6" type="text" placeholder="Введите число" />
+    <input class="input-3-task-6" type="text" placeholder="Введите число" />
+    <button class="result-button-task-6" type="submit">Проверить</button>
+    <p class="result-task-6">Результат</p>
+    <h2>Задача 7</h2>
+    <p>
+      Написати програму яка переведе введену оцінку студента до болонського формату</br>89 - 100 це A 75
+      - 88 це В 60 - 74 це С 45 - 59 це D 20 - 44 це Е до 20 це F
+    </p>
+    <input class="input-task-7" type="number" min = "1" max = "100" placeholder="Оценка" /> <span class="answer-task-7">Результат</span>
+
+    <h2>Задача 9</h2>
+    <p>Написати гру камінь ножиці папір. Де компютер загадує своє значення потім користувач вводить свій варіант і далі ми бачимо результат на екпані хто виграв</p>
+<select id="size" name="size">
+  <option value="stone">Камінь</option>
+  <option value="scissors">Ножиці</option>
+  <option value="paper">Папір</option>
+</select>
+<button type="submit">Начать</button>
     <!-- -------------------------------------------- -->
-    <script src="script.js" type="module"></script>
+    <script src="task-5.js" type="module"></script>
+    <script src="task-6.js" type="module"></script>
+    <script src="task-7.js" type="module"></script>
+    <script src="task-9.js" type="module"></script>
   </body>
 </html>
