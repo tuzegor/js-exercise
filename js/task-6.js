@@ -6,17 +6,6 @@ const resultButton = document.querySelector('.result-button-task-6');
 const result = document.querySelector('.result-task-6');
 
 resultButton.addEventListener('click', checkNumbers);
-// function checkNumbers(evt) {
-//   //   console.log(Number(firstNumber.value));
-//   let numbers = [];
-
-//   isNumber(firstNumber.value, numbers);
-//   isNumber(secondNumber.value, numbers);
-//   isNumber(thirdNumber.value, numbers);
-//   console.log(numbers);
-
-//   result.textContent = `${Math.max(...numbers)} -- Это самое большое число`;
-// }
 
 // function isNumber(elem, arr) {
 //   if (isNaN(elem)) {
@@ -37,10 +26,4 @@ function checkNumbers(evt) {
   } else {
     result.textContent = 'Введите все числа';
   }
-  //   isNumber(firstNumber.value, numbers);
-  //   isNumber(secondNumber.value, numbers);
-  //   isNumber(thirdNumber.value, numbers);
-  //   console.log(numbers);
-
-  //   result.textContent = `${Math.max(...numbers)} -- Это самое большое число`;
 }

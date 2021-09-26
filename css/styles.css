@@ -8,6 +8,12 @@ h2 {
   outline-color: limegreen;
 }
 
+.success {
+  outline-color: chartreuse;
+  background-color: rgb(75, 185, 75);
+  color: blueviolet;
+}
+
 .input-task-7 {
   width: 100px;
 }
