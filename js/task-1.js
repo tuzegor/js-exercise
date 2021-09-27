@@ -5,9 +5,6 @@ const result = document.querySelector('.result-task-1');
 resultButton.addEventListener('click', checkDate);
 date.addEventListener('keydown', checkDateOnEnter);
 function checkDate() {
-  console.log(date.value);
-  console.log(isNaN(date.value));
-  console.log(date.value % 4 === 0);
   if (!isNaN(date.value)) {
     if (date.value % 4 === 0) {
       result.classList.add('success');
