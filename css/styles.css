@@ -1,3 +1,6 @@
+body {
+  background-color: gainsboro;
+}
 .main-title {
   color: blueviolet;
 }
@@ -14,6 +17,7 @@ h2 {
   color: blueviolet;
 }
 
-.input-task-7 {
-  width: 100px;
+.input-task-7,
+.input-task-2 {
+  width: 150px;
 }
