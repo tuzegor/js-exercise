@@ -16,6 +16,8 @@ function checkNumber() {
       result.classList.remove('success');
       result.textContent = `Ты проиграл, число компьютера ${random}`;
     }
+  } else {
+    result.textContent = 'Некоректное число, введи число от 1 до 10';
   }
 }
 

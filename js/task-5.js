@@ -11,5 +11,5 @@ function check(evt) {
     return (answer.textContent = `${numb} -- Входит`);
   }
   userText.classList.remove('change-color');
-  answer.textContent = `${numb} -- Попробуй другое`;
+  answer.textContent = `${numb} -- Не входит. Попробуй другое`;
 }
