@@ -1,5 +1,7 @@
 body {
   background-color: gainsboro;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
 }
 .main-title {
   color: blueviolet;
@@ -20,4 +22,13 @@ h2 {
 .input-task-7,
 .input-task-2 {
   width: 150px;
+}
+
+.answer-task-9 {
+  display: inline-block;
+  background-color: white;
+  border: 1px solid dimgray;
+  border-radius: 2px;
+  width: 60px;
+  color: rgb(27, 27, 27);
 }

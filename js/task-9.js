@@ -4,7 +4,7 @@ const result = document.querySelector('.result-task-9');
 resultBtn.addEventListener('click', startGame);
 
 function startGame() {
-  result.style.backgroundColor = 'white';
+  result.classList.add('answer-task-9');
 
   console.dir(result);
   const random = Math.random();
